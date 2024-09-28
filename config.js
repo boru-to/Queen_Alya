@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQ
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "./lib/alya.jpg";
 global.devs = "2348100835767";
-global.sudo = process.env.SUDO || "2348100835767,2348123179877";
-global.owner = process.env.OWNER_NUMBER || "2348100835767";
+global.sudo = process.env.SUDO || "27747815326";
+global.owner = process.env.OWNER_NUMBER || "27747815326";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -46,14 +46,14 @@ global.SESSION_ID =
   "
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || "+",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ALYA™`",
   author: process.env.PACK_AUTHER || "QUEEN_ALYA",
   packname: process.env.PACK_NAME || "A L Y A",
   botname: process.env.BOT_NAME || "QUEEN_ALYA",
-  ownername: process.env.OWNER_NAME || "STAR KING",
+  ownername: process.env.OWNER_NAME || "katakuri",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
